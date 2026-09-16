@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- EDIT: Replace this title and the name throughout this file. -->
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- EDIT: Your name. -->
+            <div class="nav-logo"><a href="#home">Your Name</a></div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#updates" class="nav-link">Updates</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <!-- EDIT: Your information. -->
+                    <h1>Hi, I'm Your Name</h1>
+                    <h2>Information Systems Student</h2>
+                    <div class="hero-buttons">
+                        <div class="button-row"><a href="#projects" class="btn btn-primary">View My Work</a><a href="#contact" class="btn btn-secondary">Get in Touch</a></div>
+
+                        <div class="button-row"><a href="assets/documents/WyattAnderson_Resume.pdf" class="btn btn-resume" download>Download Resume</a></div>
+                    </div>
+                </div>
+
+                <div class="hero-image"><img src="assets/images/profile.png" alt="Your Name" class="profile-photo" width="300" height="300"></div>
+            </div>
+        </section>
+
+        <section id="about" class="about"><div class="container">
+            <h2 class="section-title">About Me</h2><div class="about-content"><div class="about-text">
+
+                <p>Add your bio here</p>
+
+                <div class="about-links"><a href="mailto:youremail@gmail.com" class="about-icon-btn" title="Email me"><i class="fas fa-envelope"></i></a><a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="about-icon-btn" title="LinkedIn Profile"><i class="fab fa-linkedin"></i></a></div>
+            </div></div>
+        </div></section>
+        
+        <!-- EDIT: Your skills here -->
+        <section id="skills" class="skills"><div class="container"><h2 class="section-title">Skills &amp; Technologies</h2><div class="skills-grid">
+
+            <div class="skill-card"><div class="skill-icon"><i class="fas fa-tools"></i></div><h3>IT Support</h3><p>Technical troubleshooting and system administration</p></div>
+            <div class="skill-card"><div class="skill-icon"><i class="fab fa-python"></i></div><h3>Python</h3><p>Programming and automation scripting</p></div>
+            <div class="skill-card"><div class="skill-icon"><i class="fab fa-git-alt"></i></div><h3>Git &amp; GitHub</h3><p>Version control and collaboration</p></div>
+            <div class="skill-card"><div class="skill-icon"><i class="fas fa-database"></i></div><h3>Data Analysis</h3><p>Data manipulation and insights</p></div>
+        </div></div></section>
+
+        <!-- EDIT: Your projects and certifications here -->
+        <section id="projects" class="projects"><div class="container"><h2 class="section-title">Projects &amp; Certifications</h2>
+            <div class="subsection"><h3 class="subsection-title">Featured Projects</h3><div class="projects-grid">
+                <article class="project-card"><div class="project-image"><i class="fas fa-desktop"></i></div><div class="project-content"><h3>Project 1</h3><p class="project-description">Project Description Here</p><div class="project-tags"><span class="tag">Model Training</span><span class="tag">Image Generation</span><span class="tag">Datasets</span></div><div class="project-links"><a href="https://github.com/" class="project-link" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a></div></div></article>
+                <article class="project-card"><div class="project-image"><i class="fas fa-globe"></i></div><div class="project-content"><h3>Project 2</h3><p class="project-description">Project Description Here</p><div class="project-tags"><span class="tag">Squarespace</span><span class="tag">SEO Setup</span><span class="tag">Domain Management</span></div><div class="project-links"><a href="https://kingstreamhomesassociation.org" class="project-link" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Website</a></div></div></article>
+            </div></div>
+            <div class="subsection"><h3 class="subsection-title">Certifications</h3><div class="certifications-grid">
+                <a href="assets/documents/" class="cert-card" target="_blank"><div class="cert-icon"><i class="fas fa-certificate"></i></div><div class="cert-content"><h4>Dean's List</h4><p class="cert-issuer">VCU</p><p class="cert-date">2024</p></div></a>
+                <a href="assets/documents/" class="cert-card" target="_blank"><div class="cert-icon"><i class="fas fa-envelope"></i></div><div class="cert-content"><h4>Certificate Place Holder</h4><p class="cert-issuer">VCU</p><p class="cert-date">2024</p></div></a>
+            </div></div>
+        </div></section>
+      
+        <!-- EDIT: Your recent updates here -->
+        <section id="updates" class="updates"><div class="container"><h2 class="section-title">Recent Updates</h2><div class="updates-grid">
+            <article class="update-card"><div class="update-date"><span class="month">May</span><span class="year">2026</span></div><div class="update-content"><h3>Summer 2026 Updates</h3><p>Add recent proffesional updates here!</p><span class="update-tag">Update</span></div></article>
+            <article class="update-card"><div class="update-date"><span class="month">April</span><span class="year">2026</span></div><div class="update-content"><h3>Updates Placeholder</h3><p>Add information here</p><span class="update-tag">Competition</span></div></article>
+        </div></div></section>
+
+        <!-- EDIT: Your contact information here -->
+        <section id="contact" class="contact"><div class="container"><h2 class="section-title">Connect &amp; More</h2><div class="contact-content"><div class="contact-info"><h3>Let's Connect!</h3><p>I'm always interested in discussing new opportunities and collaborating on projects.</p>
+            <div class="contact-methods"><div class="contact-method primary-contact"><i class="fas fa-envelope"></i><div><h4>Email</h4><p><a href="mailto:youremail@gmail.com">youremail@gmail.com</a></p></div></div><div class="secondary-contacts">
+                <div class="contact-method"><i class="fab fa-github"></i><div><h4>GitHub</h4><p><a href="https://github.com/" target="_blank" rel="noopener">github.com/user</a></p></div></div>
+                <div class="contact-method"><i class="fab fa-linkedin"></i><div><h4>LinkedIn</h4><p><a href="https://www.linkedin.com/in/user" target="_blank" rel="noopener">linkedin.com/in/user</a></p></div></div>
+            </div></div>
+        </div></div></div></section>
+    </main>
+    <footer class="footer"><div class="container"><div class="footer-content"><p>&copy; 2026. All rights reserved.</p></div></div></footer>
+    <script src="script.js"></script>
+</body>
+</html>
